@@ -7,8 +7,3 @@ sh <(wget -O - https://raw.githubusercontent.com/dietime/domain-routing-openwrt/
 ```
 sh <(wget -O - https://raw.githubusercontent.com/dietime/domain-routing-openwrt/awg2.0+telegram/getdomains-check.sh)
 ```
-
-### Запустить с проверкой на подмену DNS
-```
-wget -O - https://raw.githubusercontent.com/dietime/domain-routing-openwrt/awg2.0+telegram/getdomains-check.sh | sh -s dns
-```
